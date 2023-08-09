@@ -1,4 +1,4 @@
-//dectecting button area
+//detecting button area
 
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
@@ -30,8 +30,8 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function() {
 
       switch (key) {
        case "w":
-          var crashi = new Audio('crash.mp3');
-          crashi.play();
+          var crash1 = new Audio('crash.mp3');
+          crash1.play();
           break;
 
        case "a":
